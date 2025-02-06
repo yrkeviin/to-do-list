@@ -13,6 +13,13 @@ body {
     background-position: top center;
 }
 
+.container {
+    backdrop-filter: blur(10px);
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+}
+
 .titulo h1 {
     color: white;
     font-size: 2.5rem;
@@ -29,21 +36,22 @@ body {
 }
 
 .add-task input {
-    width: 15%;
-    height: 2rem;
+    width: 60%;
+    height: 3rem;
     border: none;
     border-radius: 5px;
     padding: 0 1rem;
     font-family: "Poppins", serif;
     font-size: 1rem;
     outline: none;
+    margin-right: 2%;
 }
 
 .add-task button {
-    width: 2%;
-    height: 2rem;
+    width: 8.5%;
+    height: 3rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 100%;
     background-color: #9748ff;
     color: white;
     font-family: "Poppins", serif;
